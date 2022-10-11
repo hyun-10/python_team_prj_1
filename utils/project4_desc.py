@@ -5,7 +5,7 @@ import Open_Img as oi
 def desc():
 
  with st.container():
-    st.write('''
+    st.write(
 	
 #### 1. 사용한 FinanceDataReader 데이터 소개
      
@@ -74,9 +74,9 @@ def desc():
      
     미국 달러가 모든 화폐의 황제라면, 금은 모든 실물자산의 황제라고 볼 수 있다.
     전 세계의 모든 국가 단위의 은행들은 항상 금을 일정량 비축한다.
-	''')
+	)
     oi.open_img('Img\img7.png')
-    st.write('''
+    st.write(
 	
 #### 2. 결론
      
@@ -98,4 +98,4 @@ def desc():
     지금 상황에서는 가장 안전한 방법은 은행 이자를 통한 수익이며 조금 장기적으로 본다
     면 금을 사는것이 좋다고 생각한다.  
 
-	''')                                            
+	)                                            
