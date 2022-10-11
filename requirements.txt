@@ -1,2 +1,10 @@
 streamlit
 finance-datareader
+pandas
+numpy
+matplotlib
+datetime
+keras
+tensorflow
+sklearn
+PIL
