@@ -8,3 +8,4 @@ keras
 tensorflow
 sklearn
 pillow
+protobuf-3.20.1
