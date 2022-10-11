@@ -12,7 +12,7 @@ count = 0
 
 def desc():
  with st.container():
-    st.write('''
+    st.write(
 
 #### 1. 사용한 투자 전략 소개
 
@@ -45,11 +45,11 @@ def desc():
         이동 평균은 주식 가격의 추세를 파악하는데 사용 된다.
         단점은 추세의 빠른 변화를 바로 읽지 못한다.
 
-        ''')
+        )
         count = 1
 
     if st.checkbox('상대적 강도 지수(RSI) 전략'):
-        st.write('''
+        st.write(
 
     ##### 2) 상대적 강도 지수(RSI) 전략
          
@@ -59,11 +59,11 @@ def desc():
         로 구하며 기본적으로 과매수 70 과매도 30 으로 잡는다.
         단점은 주가가 같은 방향으로 오래 지속되면 거짓 신호를 보낼 확률이 있다.
         
-        ''')
+        )
         count = 2
 
     if st.checkbox('볼린저 밴드(Bollinger_Band) 전략'):
-        st.write('''
+        st.write(
 
     ##### 3) 볼린저 밴드(Bollinger_Band) 전략
          
@@ -76,11 +76,11 @@ def desc():
         하단선에서 매수, 상한선에서 매도 하는 방식이다.
         단점은 단타 투자에 적합한 방식으로 기간이 길면 손해를 보기 쉬운 전략이다.
         
-        ''')
+        )
         count = 3   
 
     if st.checkbox('캘트너 채널(Keltner) 전략'):
-        st.write('''
+        st.write(
 
     ##### 4) 캘트너 채널(Keltner) 전략
          
@@ -91,7 +91,7 @@ def desc():
         볼린저 밴드보다 시장 변동성에 대한 빠른 반응이 가능한 장점이 있다.
         단점은 역시 단타 투자에 적합한 방식으로 기간이 길면 손해를 보기 쉬운 전략이다.
         
-        ''')
+        )
         count = 4        
 
     st.subheader('[4] 모의 투자 결과 확인')
