@@ -2,7 +2,7 @@ import streamlit as st
 
 def desc():
 
-	st.write('''
+	st.write(
 
 #### 1. PyKrx 소개
 
@@ -43,6 +43,6 @@ def desc():
 
     주식과 채권의 전반적인 데이터를 다룬다.
     https://github.com/sharebook-kr/pykrx 참조
-	''')
+	)
 
 	
