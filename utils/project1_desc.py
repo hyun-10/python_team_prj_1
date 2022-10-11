@@ -2,7 +2,7 @@ import streamlit as st
 
 def desc():
 
-	st.write('''
+	st.write(
 	
 #### 1. LSTM 소개
    
@@ -50,4 +50,4 @@ def desc():
     조합해 예측결과를 도출한다. 이때 예측한 결과물이 새로운 단기 메모리가 된다.
 
 
-	''')
+	)
