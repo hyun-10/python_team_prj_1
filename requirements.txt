@@ -6,5 +6,6 @@ matplotlib
 datetime
 keras
 tensorflow
-sklearn
+sklearn.model_selection
+sklearn.preprocessing
 PIL
