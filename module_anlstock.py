@@ -10,7 +10,7 @@ from keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
-from pilow import Image
+from pillow import Image
 
 
 
