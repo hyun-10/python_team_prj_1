@@ -2,7 +2,7 @@ import streamlit as st
 
 def desc():
 
-	st.write('''
+	st.write(
 
 #### 1. backtrader 소개
 
@@ -55,4 +55,4 @@ def desc():
     1) 과 2) 에서 알아낸 정보를 통해 이 주식에 얼마를 투자해야 할지를 정할수 있다.
 
 
-	''')                                   
+	)                                   
