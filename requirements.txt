@@ -1,2 +1,2 @@
 streamlit
-finance-datareader-0.9.42
+finance data reader
