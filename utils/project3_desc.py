@@ -2,7 +2,7 @@ import streamlit as st
 
 def desc():
 
-	st.write('''
+	st.write(
 
 #### 1. FinanceDataReader 소개
 
@@ -47,6 +47,6 @@ def desc():
     https://github.com/FinanceData/FinanceDataReader 에서 확인 할 수 있다.
 
 
-	''')
+	)
 
 	
