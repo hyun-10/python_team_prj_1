@@ -1,1 +1,0 @@
-# python_team_prj_1
